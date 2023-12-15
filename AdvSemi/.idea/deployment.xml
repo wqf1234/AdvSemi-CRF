@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@region-3.seetacloud.com:50040" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="root@region-3.seetacloud.com:43599">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/AdvSemiSeg-master" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@region-3.seetacloud.com:43599 (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/AdvSemiSeg-master" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@region-3.seetacloud.com:43599 (5)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/AdvSemiSeg-master" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@region-3.seetacloud.com:43599 (6)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/AdvSemiSeg-master" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@region-3.seetacloud.com:50040">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/AdvSemiSeg-master" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@region-3.seetacloud.com:50040 (1)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/AdvSemiSeg-master" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@region-3.seetacloud.com:50040 (11)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/AdvSemiSeg-master" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@region-3.seetacloud.com:50040 (8)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/AdvSemiSeg-master" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
