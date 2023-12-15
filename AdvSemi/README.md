@@ -1,26 +1,10 @@
-# Adversarial Learning for Semi-supervised Semantic Segmentation
+# Project name
+AdvSemi-CRF
+# Title of manuscript
+Towards identification if coal macerals through semi-supervised semantic segmentation combined with conditional random fields algorithm
 
-This repo is the pytorch implementation of the following paper:
+# Author details
 
-[Adversarial Learning for Semi-supervised Semantic Segmentation](https://arxiv.org/abs/1802.07934) <br/>
-[Wei-Chih Hung](https://hfslyc.github.io/), [Yi-Hsuan Tsai](https://sites.google.com/site/yihsuantsai/home), Yan-Ting Liou, [Yen-Yu Lin](https://www.citi.sinica.edu.tw/pages/yylin/), and [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/) <br/>
-Proceedings of the British Machine Vision Conference (BMVC), 2018.
-
-Contact: Wei-Chih Hung (whung8 at ucmerced dot edu)
-
-![](figs/semi_overview.jpg)
-
-The code are heavily borrowed from a pytorch DeepLab implementation ([Link](https://github.com/speedinghzl/Pytorch-Deeplab)). The baseline model is DeepLabv2-Resnet101 without multiscale training and CRF post processing, which yields meanIOU ``73.6%`` on the VOC2012 validation set. 
-
-Please cite our paper if you find it useful for your research.
-```
-@inproceedings{Hung_semiseg_2018,
-  author = {W.-C. Hung and Y.-H. Tsai and Y.-T. Liou and Y.-Y. Lin and M.-H. Yang},
-  booktitle = {Proceedings of the British Machine Vision Conference (BMVC)},
-  title = {Adversarial Learning for Semi-supervised Semantic Segmentation},
-  year = {2018}
-}
-```
 
 ## Prerequisite
 
@@ -53,10 +37,6 @@ It will download the pretrained model with 1/8 training data and evaluate on the
 
 * Available ``--pretrained-model`` options: ``semi0.125``, ``semi0.25``, ``semi0.5`` , ``advFull``. 
 
-## Example visualization results
-
-![](figs/visualization_results.png)
-
 
 ## Training on VOC2012
 
@@ -76,7 +56,3 @@ To evaluate trained model, execute the following:
 python evaluate_voc.py --restore-from snapshots/VOC_20000.pth \
                        --save-dir results
 ```
-
-## Changelog
-
-* 07/24/2018: Update BMVC results
