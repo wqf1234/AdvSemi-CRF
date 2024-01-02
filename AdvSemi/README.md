@@ -8,7 +8,7 @@ Towards identification if coal macerals through semi-supervised semantic segment
 * Qingfeng Wang: wangqf0716@gmail.com
 
 # Guidance
-# 1 semi-supervised semantic segmentation
+# 1. semi-supervised semantic segmentation
 
 ## Prerequisite
 * CUDA/CUDNN
@@ -48,7 +48,7 @@ python evaluate_voc.py --restore-from snapshots/VOC_20000.pth \
 * Available ``--pretrained-model`` options: ``semi0.125``, ``semi0.25``, ``semi0.5`` , ``advFull``.
 It will download the pretrained model with 1/8 training data and evaluate on the testing set. The colorized images will be saved in ``results/`` .
 
-# 2 conditional random fields algorithm
+# 2. conditional random fields algorithm
 
 ## dataset
 * Save the prediction results folder as input to the algorithm
