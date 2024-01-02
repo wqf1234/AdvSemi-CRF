@@ -31,7 +31,7 @@ AdvSemi/dataset/JPEGImages
 
 ```
 python train.py --snapshot-dir snapshots \
-                --partial-data 0.125 \
+                --partial-data 0.25 \
                 --num-steps 20000 \
                 --lambda-adv-pred 0.01 \
                 --lambda-semi 0.1 --semi-start 5000 --mask-T 0.2
@@ -43,10 +43,9 @@ python evaluate_voc.py --restore-from snapshots/VOC_20000.pth \
                        --save-dir results
 ```
 
-
 ## Testing
 * Available ``--pretrained-model`` options: ``semi0.125``, ``semi0.25``, ``semi0.5`` , ``advFull``.
-It will download the pretrained model with 1/8 training data and evaluate on the testing set. The colorized images will be saved in ``results/`` .
+It will download the pretrained model with 1/4 training data and evaluate on the testing set. The colorized images will be saved in ``results/`` .
 
 # 2. conditional random fields algorithm
 
